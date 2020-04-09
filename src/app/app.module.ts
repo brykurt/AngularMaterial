@@ -17,6 +17,10 @@ import {MatDatepickerModule} from '@angular/material/datepicker';
 import {MatNativeDateModule} from '@angular/material/core';
 import {MatSelectModule} from '@angular/material/select';
 import {MatCardModule} from '@angular/material/card';
+import {MatSortModule} from '@angular/material/sort';
+import {MatPaginatorModule} from '@angular/material/paginator';
+import { MatTableComponent } from './mat-table/mat-table.component';
+import { MatTableModule } from '@angular/material/table';
 @NgModule({
   declarations: [
     AppComponent,
@@ -24,6 +28,7 @@ import {MatCardModule} from '@angular/material/card';
     DialogsComponent,
     SidenavComponent,
     ToolbarComponent,
+    MatTableComponent,
    
   ],
   imports: [
@@ -39,7 +44,10 @@ import {MatCardModule} from '@angular/material/card';
     MatNativeDateModule,
     MatDatepickerModule,
     MatSelectModule,
-    MatCardModule
+    MatCardModule,
+    MatSortModule,
+    MatPaginatorModule,
+    MatTableModule
   ],
   providers: [],
   bootstrap: [AppComponent]
