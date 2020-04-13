@@ -15,7 +15,7 @@ import {MatSortModule} from '@angular/material/sort';
 import {MatPaginatorModule} from '@angular/material/paginator';
 import { MatTableModule } from '@angular/material/table';
 import {MatStepperModule} from '@angular/material/stepper';
-
+import {DragDropModule} from '@angular/cdk/drag-drop';
 @NgModule({
   declarations: [],
   imports: [
@@ -32,7 +32,8 @@ import {MatStepperModule} from '@angular/material/stepper';
     MatSortModule,
     MatPaginatorModule,
     MatTableModule,
-    MatStepperModule
+    MatStepperModule,
+    DragDropModule
    
   ],
   exports: [
@@ -50,7 +51,8 @@ import {MatStepperModule} from '@angular/material/stepper';
     MatCardModule,
     MatSortModule,
     MatPaginatorModule,
-    MatStepperModule
+    MatStepperModule,
+    DragDropModule
   ]
 
 })
