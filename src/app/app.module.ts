@@ -21,6 +21,9 @@ import {MatSortModule} from '@angular/material/sort';
 import {MatPaginatorModule} from '@angular/material/paginator';
 import { MatTableComponent } from './mat-table/mat-table.component';
 import { MatTableModule } from '@angular/material/table';
+import { MainContentComponent } from './main-content/main-content.component';
+import { HttpClientModule } from '@angular/common/http';
+import { UserDialogsComponent } from './user-dialogs/user-dialogs.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -29,6 +32,9 @@ import { MatTableModule } from '@angular/material/table';
     SidenavComponent,
     ToolbarComponent,
     MatTableComponent,
+    MainContentComponent,
+    UserDialogsComponent,
+    
    
   ],
   imports: [
@@ -47,7 +53,8 @@ import { MatTableModule } from '@angular/material/table';
     MatCardModule,
     MatSortModule,
     MatPaginatorModule,
-    MatTableModule
+    MatTableModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
