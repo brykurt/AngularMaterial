@@ -18,6 +18,7 @@ import { AppComponent } from './app.component';
 import { ToolbarComponent } from './toolbar/toolbar.component';
 import { MatTableComponent } from './mat-table/mat-table.component';
 import { MatCardComponent } from './mat-card/mat-card.component';
+import { MatStepperComponent } from './mat-stepper/mat-stepper.component';
 
 @NgModule({
   declarations: [
@@ -30,6 +31,7 @@ import { MatCardComponent } from './mat-card/mat-card.component';
     MainContentComponent,
     UserDialogsComponent,
     MatCardComponent,
+    MatStepperComponent,
   
   
   ],
