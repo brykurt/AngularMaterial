@@ -2,6 +2,8 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction:row;
+    margin-top: 4%;
+    justify-content: center;
 }
 .example-card{
     width: 250px;
@@ -27,4 +29,11 @@
 }
 .image-circle{
     border-radius: 100px;
+}
+
+
+
+h2{ 
+    margin-top: 3%;
+    text-align: center;
 }

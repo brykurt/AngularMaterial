@@ -1,3 +1,7 @@
+<h2>Table with pagination, sort, filter, and footer</h2>
+
+<div class = "tables">
+
 <mat-form-field class="fil">
     <mat-label>Filter</mat-label>
     <input matInput (keyup)="applyFilter($event)" placeholder="Ex. Helium">
@@ -35,3 +39,4 @@
   </table>
   <mat-paginator [pageSizeOptions]="[5, 10, 20]" showFirstLastButtons></mat-paginator>
   
+  </div>
