@@ -19,6 +19,8 @@ import { ToolbarComponent } from './toolbar/toolbar.component';
 import { MatTableComponent } from './mat-table/mat-table.component';
 import { MatCardComponent } from './mat-card/mat-card.component';
 import { MatStepperComponent } from './mat-stepper/mat-stepper.component';
+import { DragDropComponent } from './drag-drop/drag-drop.component';
+import { DragDialogComponent } from './drag-dialog/drag-dialog.component';
 
 @NgModule({
   declarations: [
@@ -32,6 +34,8 @@ import { MatStepperComponent } from './mat-stepper/mat-stepper.component';
     UserDialogsComponent,
     MatCardComponent,
     MatStepperComponent,
+    DragDropComponent,
+    DragDialogComponent,
   
   
   ],
